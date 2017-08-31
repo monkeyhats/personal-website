@@ -1,1 +1,217 @@
-<h1> Hello world!</h1>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Derek</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="derek.css" rel="stylesheet" type="text/css">
+<link href="derek-nav.css" rel="stylesheet" type="text/css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="derek.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div id="slide-in-nav" class="slide-in">
+ <div id="side-menu">
+  
+  <a href="#intro" data-tab="menu-1">Back to the Top</a>
+  <a href="#education"  data-tab="menu-2">Education</a>
+  <a href="#skills"  data-tab="menu-3">Skills</a>
+  <a href="#facts"  data-tab="menu-4">Facts</a>
+  <a href="#kitten-princess"  data-tab="menu-5">The Kitten</a>
+
+
+  
+ </div>
+ 
+ 
+ 
+  <div id="menu-images">
+ 	<!--  
+ 	/***********Add this back if you want to open the menu on a standard image
+ 	    
+  	<div class="menu-img-container current"></div>
+  	
+  	-->
+ 	<div class="menu-img-container current" id="menu-1">
+ 		<h3>Go back up</h3>
+ 	</div>
+ 	<div class="menu-img-container" id="menu-2"> 		
+ 		<h3>Education</h3>
+	</div>
+ 	<div class="menu-img-container" id="menu-3">
+ 		<h3>Skills</h3>
+ 	</div>
+ 	<div class="menu-img-container" id="menu-4"> 		
+ 		<h3>Facts</h3>
+	</div>
+ 	<div class="menu-img-container" id="menu-5">
+ 		<h3>The Kitten</h3>
+ 	</div>
+ </div>
+</div>
+
+
+
+<script>
+function toggleMenu(x) {
+    x.classList.toggle("change");
+}
+</script>
+
+<main>
+
+<div id="menu-button">
+<ul class="nav-bar">
+	<li class="close">
+		<div class="click-to-slide" onclick="toggleMenu(this)">
+			<div class="bar1">&nbsp;</div>
+
+			<div class="bar2">&nbsp;</div>
+
+			<div class="bar3">&nbsp;</div>
+		</div>
+	</li>
+</ul>
+</div>
+<section class="contentBar panel_67 shade darkBG" id="intro">
+<div class="container">
+	<div class="content_100 content_noPadd">
+		<h1>Derek Schroeder</h1>
+		<h2>Web Developer and UX Designer</h2>
+	</div>
+</div>
+</section>	
+
+
+
+
+<section class="contentBar panel_67" id="education">
+ 	<div class="container">
+ 	
+ 	<h1>The Basics</h1>
+ 		<h3>Education</h3>
+
+<div class="content_twoCols">
+	<h5>Transylvania University</h5>
+	Bachelor of Arts, Business Administration<br>
+	Lexington, KY<br>
+	Class of 2011
+	
+	<hr>
+</div>
+<div class="content_twoCols">
+
+	<h5>duPont Manual High School</h5>
+	Louisville, KY<br>
+	Class of 2007<br><Br>
+	<hr>
+</div>
+	</div>
+</section>
+<section class="contentBar panel_75 light-mesh" id="skills">
+ 	<div class="container">
+ 	<h1>The Skills</h1>
+I am lorde<br>
+ya ya ya
+	</div>
+</section>
+<section class="contentBar panel_67" id="experience">
+ 	<div class="container">
+ 	<h1>The Experience</h1>
+I am lorde<br>
+ya ya ya
+	</div>
+</section>
+
+<section class="contentBar panel_75 light-mesh" id="facts">
+ 	<div class="container">
+ 	<h1>The Facts</h1>
+<div class="content_twoCols">
+	<h4>Two truths and a lie:</h4>
+	<ul>
+		<li>I'm 5 degrees of separation from Kevin Bacon</li>
+		<li>I still play Pokemon Go</li>
+		<li>Ya ya ya I am Lorde</li>
+	</ul>
+</div>
+
+<div class="content_twoCols">
+	<h4>Hobbies or whatever:</h4>
+	<ul>
+		<li>Soccer</li>
+		<li>Pokemon Go</li>
+		<li>Bloodborne</li>
+	</ul>
+</div>
+	</div>
+</section>
+
+<section class="contentBar panel_67" id="kitten-princess">
+ 	<div class="container">
+ 	<h1>The Kitten</h1>
+<ul>
+		<li>She is an extra special kitten princess</li>
+		<li>She's even more special because she's a female orange tabby</li>
+		<li>She likes being a bad kitty</li>
+	</ul>
+	</div>
+</section>
+</main>
+
+<footer class="flex-container panel_100">
+<div class="container">
+<h1>Contact Me</h1>
+
+
+
+<div class="content_100 content_noPadd">
+<form id="contact-us"><input name="elqFormName" type="hidden" value="ContactUsOC2"> <input name="elqSiteID" type="hidden" value="656956231">
+<div class="form-entry_50"><label for="oc2_contact_firstName">First Name*: </label> <input class="input-container" id="oc2_contact_firstName" name="oc2_contact_firstName" type="text"></div>
+
+<div class="form-entry_50"><label for="oc2_contact_lastName">Last Name*: </label> <input class="input-container" id="oc2_contact_lastName" name="oc2_contact_lastName" type="text"></div>
+
+<div class="form-entry_100"><label for="oc2_contact_email">Email Address*: </label> <input class="input-container" id="oc2_contact_email" name="oc2_contact_email" type="text"></div>
+
+<div class="form-entry_100"><label for="oc2_contact_subject">Subject*: </label> <input class="input-container" id="oc2_contact_subject" name="oc2_contact_subject" type="text"></div>
+
+<div class="form-entry_100"><label for="oc2_contact_message">Message*: </label><textarea id="oc2_contact_message" name="oc2_contact_message"></textarea></div>
+
+<div class="form-entry_100"><input name="submit" type="submit" value="Submit" class="button cta"></div>
+</form>
+</div>
+
+<div class="content_100 content_noPadd" id="contact-info">
+<div class="content_threeCols content_noPadd" id="address">
+<div class="icon-left"><img src="https://s3.amazonaws.com/ai.quest/OC2/Images/general/location-icon.png"></div>
+
+<div class="content_threeFourths top content_noPadd">
+<h4>Location</h4>
+<span>Louisville, KY</span></div>
+</div>
+
+<div class="content_threeCols content_noPadd" id="phone">
+<div class="icon-left"><img src="https://s3.amazonaws.com/ai.quest/OC2/Images/general/phone-icon.png"></div>
+
+<div class="content_threeFourths top content_noPadd">
+<h4>Phone</h4>
+<span>Tel: 502.931.6189</span></div>
+</div>
+
+<div class="content_threeCols content_noPadd" id="email">
+<div class="icon-left"><img src="https://s3.amazonaws.com/ai.quest/OC2/Images/general/email-icon.png"></div>
+
+<div class="content_threeFourths top content_noPadd">
+<h4>Email</h4>
+<span><a href="spamds17@gmail.com">spamds17@gmail.com</a></span></div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
+
