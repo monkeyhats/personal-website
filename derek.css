@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Josefin+Sans:400,700');
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 *, *:before, *:after { 
 	-webkit-box-sizing: border-box; 
@@ -452,7 +452,7 @@ ul.nav-bar {
 #kitten-princess {
     position: relative;
     overflow: hidden;
-    background-image: url(img/kitten-princess-headshot.png);
+    background-image: url(https://lh3.googleusercontent.com/Ih5qkXTF0R-MoL_-E8TEmOvJufniQlRouOHR8LyH8Ft6pfpGMhWtPvqqjrU0aMjsluadU2Nxy5ZjTGkIUvXSuPYg0jOaCV6qbtwHIhF6TC7mcFbjrJRvmx6xTB8vrXUqY_bfuByhMM8s6zsPMugBoBulMB23MFkiuWFHkwuBsqaKcPP0QTyddMAIS6itLe_s0H_K2jYM6M-Spuf7Kw9UPPzpFZDSAPF1pHyWA0l2E-pfrGIz8vQmu6aowEgBT4WP8XSimi6m_NglEbfnynnZxYOU9g8XrgkzmyQ6BRL-3bS_-GYNGLhsII-5_6opt89Dhk2wmtKnT6B_lJiQbRwKZqJqdgRiZh05s4i06_OnudsEYChEauGEp1S2DAT3GgB7-qrOa5fPe6kSsFW1LvnPB8DljOb_qoY376kACW6fOSYopmrE2egdSeCT-BFVFewefcjlbPg5bFEqsrVMXo2FknS6TwSdOJRKS82Oztqu1tsWJAMhHQ-WMBgEBBP5aDsRkgpgJ3UEME_udYWjLxjWmvPHw2rM3IdaGsOAlrmpunhVSV8YOe6qo-UOzTdCN4OlYW1dyrCeBNUWYv5De9Rh6WXWGS73rzJIBViiZ7uziNAsVxk-pLEo=w510-h452-no);
     background-repeat: no-repeat;
     background-size: auto 105%;
     background-position: 90% 0%;
