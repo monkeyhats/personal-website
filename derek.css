@@ -714,6 +714,8 @@ input[type="text"], input[type="password"], textarea {
 	
 	.panel_75, .panel_67, .panel_50, .panel_33, .panel_25 {
 		min-height:100vh;
+		-webkit-transition: min-height 1000s steps(1);   /*  prevent mobile jump */
+		transition: min-height 1000s steps(1);
 	}
 	
 	.indentLeft {
