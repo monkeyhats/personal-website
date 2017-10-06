@@ -14,6 +14,16 @@ $(document).ready(function(){
 		$("#"+menu_id).addClass('current');
 		 
 	});
+	
+	$("#go-to-page-two").click(function(){
+		$("div#reg-form-interior").removeClass("slide-left");
+		$("div#reg-form-interior").addClass("slide-right");        
+	});
+	
+	$("a#back-to-page-one").click(function(){
+		$("div#reg-form-interior").removeClass("slide-right");
+		$("div#reg-form-interior").addClass("slide-left");
+	});
 });
 
 
