@@ -12,6 +12,112 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="derek.js" type="text/javascript"></script>
+	<script type="text/javascript">// <![CDATA[
+function showSubTag(tag)
+	  { 
+		  if(tag.value == 'PeopleSoft Day')
+		  {
+			  if(tag.checked)
+			  	document.getElementById('PeopleSoft Keynote').style.display='';
+			  else
+				  document.getElementById('PeopleSoft Keynote').style.display='none';
+		  }
+		  if(tag.value == 'JD Edwards Day')
+		  {
+			  if(tag.checked)
+			  	document.getElementById('JDE Keynote').style.display='';
+			  else
+				  document.getElementById('JDE Keynote').style.display='none';
+		  }
+		  if(tag.value == 'Cross Product Day')
+		  {
+			  if(tag.checked)
+			  	document.getElementById('Cross Product Keynote').style.display='';
+			  else
+				  document.getElementById('Cross Product Keynote').style.display='none';
+		  }
+
+	  }
+// ]]></script><script>
+
+
+$(document).ready(function(){
+    validate();
+    $('#reg-first-name, #reg-last-name, #reg-email, #reg-company, #reg-job-title').change(validate);
+});
+
+function validate(){
+    if ($('#reg-first-name').val().length   >   0   &&
+        $('#reg-last-name').val().length  >   0   &&
+        $('#reg-email').val().length  >   0   &&
+        $('#reg-company').val().length  >   0   &&
+        $('#reg-job-title').val().length    >   0) 
+{
+        $('#go-to-page-two').removeAttr('disabled');
+        $('#go-to-page-two').removeClass('disabled');
+    }
+    else {
+        $('#go-to-page-two').attr('disabled', 'disabled');
+        $('#go-to-page-two').addClass('disabled');
+
+    }
+}
+
+
+</script><script>
+$(document).ready(function(){
+
+    $('form#qxw-register').submit(function() {
+
+        var empty = false;
+        $('input#required').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+                alert("Please fill in all the required fields");
+                return false;
+        } else {
+            $('input#submit-for-updates').click(function(){
+                $('input#submit-for-updates').addClass('slide-out-active');
+                $('span.slide-in').addClass('slide-in-active');
+        })
+   
+        }
+    })
+    
+   
+
+
+});
+
+</script><script>
+function enableSubmit(tag)
+	  { 
+		  if(tag.value == 'Agree Terms')
+		  {
+			  $('#submit-for-updates').removeAttr('disabled');
+              $('#submit-for-updates').removeClass('disabled');
+          }
+         else {
+              $('#submit-for-updates').attr('disabled', 'disabled');
+              $('#submit-for-updates').addClass('disabled');
+		  }
+	  }
+</script><script>
+function stopTab( e ) {
+    var evt = e || window.event
+    if ( evt.keyCode === 9 ) {
+        return false
+    }
+}
+
+</script>
+	
+	
+	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
