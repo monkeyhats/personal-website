@@ -206,6 +206,74 @@ ya ya ya
 <div class="form-entry_100"><input name="submit" type="submit" value="Submit" class="button cta"></div>
 </form>
 </div>
+	
+	
+<div class="content_threeCols" id="reg-form-container">
+<h1 style="line-height: 1em !important;">Register</h1>
+
+<form action="https://s656956231.t.eloqua.com/e/f2" id="qxw-register">
+<input name="elqFormName" type="hidden" value="QXW17Registration" /> 
+<input name="elqSiteID" type="hidden" value="656956231" /> 
+<input name="elqCustomerGUID" type="hidden" value="" /> 
+<input name="elqCookieWrite" type="hidden" value="0" />
+<div class="slide-left" id="reg-form-interior">
+<div class="content_twoCols" id="reg-form-page-one" style="padding:20px !important;">
+<div class="width_100">
+<div class="input-container" data-label="First Name"><input class="input-container__input" id="reg-first-name" name="qxw_first_name" placeholder="First Name *" required="required" type="text" /></div>
+</div>
+
+<div class="width_100">
+<div class="input-container" data-label="Last Name"><input class="input-container__input" id="reg-last-name" name="qxw_last_name" placeholder="Last Name *" required="required" type="text" /></div>
+</div>
+
+<div class="width_100">
+<div class="input-container" data-label="Email"><input class="input-container__input" id="reg-email" name="qxw_email" placeholder="Email *" required="required" type="text" /></div>
+</div>
+
+<div class="width_100">
+<div class="input-container" data-label="Company"><input class="input-container__input" id="reg-company" name="qxw_company" placeholder="Company *" required="required" type="text" /></div>
+</div>
+
+<div class="width_100">
+<div class="input-container" data-label="Job Title"><input class="input-container__input" id="reg-job-title" name="qxw_job_title" onkeydown="return stopTab(event);" placeholder="Job Title *" required="required" type="text" /></div>
+</div>
+
+<div class="width_100"><button class="button cta disabled" disabled="disabled" id="go-to-page-two" onclick="preventDefault();" style="margin-right: 0px !important; min-width:100% !important; max-height:3em; padding: 0 !important;" type="button">Next <i aria-hidden="true" class="fa fa-arrow-circle-right fa-fw">&nbsp;</i></button></div>
+<span style="font-size:.85em; font-weight: 400; color:#fff;"><em>* Fields are required</em></span></div>
+
+<div class="content_twoCols top" id="reg-form-page-two" style="padding:20px !important;">
+<div class="width_100"><label for="primarySoftwareInterest1SXW" style="text-align:left; color:#fff;">Primary Software Interest*: </label>
+
+<div class="select-container"><select class="width_100" name="qxw_primary_software" style="margin-left: 0px;"><option disabled="disabled" selected="selected" value="Select Product">Select Product</option><option value="JD Edwards EnterpriseOne">JD Edwards EnterpriseOne</option><option value="JD Edwards World">JD Edwards World</option><option value="Oracle Data Cloud">Oracle Data Cloud</option><option value="Oracle E-Business Suite">Oracle E-Business Suite</option><option value="Oracle EPM Cloud">Oracle EPM Cloud</option><option value="Oracle ERP Cloud">Oracle ERP Cloud</option><option value="Oracle Financials Cloud">Oracle Financials Cloud</option><option value="Oracle HCM Cloud">Oracle HCM Cloud</option><option value="Oracle Procurement Cloud">Oracle Procurement Cloud</option><option value="Oracle Sales Cloud">Oracle Sales Cloud</option><option value="Oracle SCM Cloud">Oracle SCM Cloud</option><option value="Oracle Service Cloud (CX)">Oracle Service Cloud (CX)</option><option value="Oracle User Productivity Kit">Oracle User Productivity Kit</option><option value="PeopleSoft">PeopleSoft</option><option value="None of the above">None of the above</option> </select></div>
+</div>
+
+<div class="day-checkboxes" style="font-size:.85em; font-weight: 400;"><label style="text-align:left; color:#fff;">Please select the following day(s) you would like to participate in during QXW: </label>
+
+<div class="width_100" style="margin-bottom: 1em;">
+<div style="width:100%;"><input id="JD Edwards Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="JD Edwards Day" />&nbsp;<span class="optionsTxtSXW">QXW: JD Edwards Day on Tuesday, November 7</span></div>
+
+<div id="JDE Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="JDE Keynote" />&nbsp;<span class="optionsTxtSXW">Register me for the QXW JD Edwards Keynote</span></div>
+
+<div style="width:100%;"><input id="PeopleSoft Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="PeopleSoft Day" />&nbsp;<span class="optionsTxtSXW">QXW: PeopleSoft Day on Wednesday, November 8</span></div>
+
+<div id="PeopleSoft Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="PeopleSoft Keynote" /> &nbsp;<span class="optionsTxtSXW">Register me for the QXW PeopleSoft Keynote</span></div>
+
+<div style="width:100%;"><input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />&nbsp;<span class="optionsTxtSXW">QXW: Cloud Day on Thursday, November 9</span>
+
+<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;<span class="optionsTxtSXW">Register me for the QXW Cloud Keynote</span></div>
+</div>
+</div>
+
+<div class="width_100 justifyLeft"><input id="agree_terms" name="qxw_agree_terms" onchange="enableSubmit(this);" type="checkbox" value="Agree Terms" />&nbsp;<span class="optionsTxtSXW">I agree to the <a href="/conference/QXW/terms" tabindex="-1">Terms &amp; Conditions</a> for QXW</span></div>
+
+<div class="width_100 justifyCenter"><input class="button cta disabled" disabled="disabled" id="submit-for-updates" style="min-width:100% !important; max-height:3em; padding: 0 !important; cursor: pointer;" tabindex="-1" type="submit" value="SUBMIT" /> <a id="back-to-page-one" style="cursor: pointer; padding-top:1em;">Go Back</a></div>
+</div>
+</div>
+</div>
+</form>
+</div>	
+	
+	
 
 <div class="content_100 content_noPadd" id="contact-info">
 <div class="content_threeCols content_noPadd" id="address">
