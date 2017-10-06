@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.input-container {
+margin-bottom: .5em !important;
+}
+
+.disabled {
+    background-color: gray !important;
+    opacity: .4;
+    cursor: default;
+
+}
+
+button.button.cta.disabled {
+    background-color: gray !important;
+    opacity: .4;
+    cursor: default;
+}
+
+
+#reg-form-container {
+   overflow-x: hidden;
+   position:relative;
+   min-height: 525px;
+
+}
+
+#reg-form-interior {
+    position:absolute;
+    width:200%;
+}
+
+
+#reg-form-interior .day-checkboxes {
+    color: #fff !important;
+    padding: 1em 0;
+}
+
+#reg-form-interior .select-container {
+background-color: #fff !important;
+border-radius: 3px;
+}
+
+
+@media screen and (max-width : 1024px) {
+
+.width_50, .width_40, .width_33, .width_25, .width_20, .width_15 {
+    width: 100%;
+}
+
+#reg-form-container {
+   overflow-x: initial;
+}
+
+#reg-form-interior {
+    position:relative;
+    width:100%;
+    cursor: pointer;
+}
+
+#go-to-page-two {
+    display:none;
+}
+
+#reg-form-interior .day-checkboxes {
+    text-align:left;
+}
