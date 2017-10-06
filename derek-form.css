@@ -42,6 +42,23 @@ border-radius: 3px;
 }
 
 
+.slide-right {
+    left: -100% !important;
+		transition: all 0.25s linear 0s;
+		-webkit-transition: all 0.25s ease-out;
+		-moz-transition: all 0.25s ease-out;
+		-o-transition: all 0.25s ease-out;
+}
+
+.slide-left {
+    left: 0% !important;
+    transition: all 0.25s linear 0s;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+}
+
+
 @media screen and (max-width : 1024px) {
 
 .width_50, .width_40, .width_33, .width_25, .width_20, .width_15 {
