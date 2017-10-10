@@ -28,14 +28,14 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 8px;
+    width: 15px;
     border-radius: 100em;
-    background-color: #c1d72e;
+    background-color: #eee;
 }
 
 body::-webkit-scrollbar-thumb {
     border-radius: 100em;
-    background-color: #63a961;
+    background-color: rgba(0,0,255,1);
 }
 body::-webkit-scrollbar-track {
     border-radius: 100em;
