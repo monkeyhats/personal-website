@@ -27,6 +27,21 @@ body {
 	margin: 0px;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 100em;
+    background-color: #c1d72e;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100em;
+    background-color: #63a961;
+}
+body::-webkit-scrollbar-track {
+    border-radius: 100em;
+    background-color: transparent;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
     display: block
 }
