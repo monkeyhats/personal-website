@@ -379,8 +379,8 @@ ul.nav-bar {
 }
 
 #about-me-container {
-    border-left: 1px solid;
-    border-bottom: 1px solid;
+    border-left: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
     padding: 1em;
     /* padding-top: 0; */
 }
