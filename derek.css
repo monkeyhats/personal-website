@@ -378,12 +378,11 @@ ul.nav-bar {
     	justify-content: center;
 }
 
-#about-me-info {
-	background-color: #00457c;
-	box-shadow: 2px 4px 10px #2c2c2c;
-	border-radius: 1em;
-	padding: 1em;
-	margin-bottom:2em;
+#about-me-container {
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1em;
+    /* padding-top: 0; */
 }
 
 .dots-overlay {
@@ -602,7 +601,7 @@ img {
 }
 
 #about-me-info .headshot {
-    margin: 0em 1em 0em -12%;
+    margin: -1em 1em 0em -12%;
     width: 20%;
     float: left;
 }
