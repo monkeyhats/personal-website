@@ -591,15 +591,14 @@ img {
 }
 
 .headshot {
-    border-radius: 100%;
-    border: 3px solid white;
     display: inline-block;
     position: relative;
     z-index: 1;
 }
 
 .headshot img {
-    border-radius: 100%;
+    border-radius: 100em;
+    border: 0.25em solid #fff;
 }
 
 #about-me-info .headshot {
