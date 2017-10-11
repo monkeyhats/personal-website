@@ -615,6 +615,66 @@ img {
     float: left;
 }
 
+/* Image Wrappers */
+.imageLeft {
+	padding: .5em .5em .5em 0;
+	width: 100%;
+	max-width: 33%;
+	display: inline-block;
+	float: left
+}
+.imageRight {
+	padding: .5em 0 .5em .5em;
+	width: 100%;
+	max-width: 33%;
+	display: inline-block;
+	float: right;
+	text-align: right
+}
+.imageWide {
+	max-width: 100%;
+	padding: .5em 0;
+	text-align: center
+}
+.imageLeft.top, .imageRight.top, .imageWide.top {
+	padding-top: 0
+}
+.imageLeft img, .imageRight img, .imageWide img {
+	width: 100%;
+	height: auto;
+	padding: 0
+}
+
+
+/* Add a span into image wrapper to caption */
+.imageLeft span, .imageRight span, .imageWide span {
+	width: 100%;
+	height: auto;
+	font-size: .75em;
+	background-color: #ffffff;
+	padding: .5em;
+	display: block;
+}
+
+/* Video Wrapper */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	height: 0;
+	margin: 1em 0
+}
+.imageLeft .videoWrapper, .imageRight .videoWrapper, .imageWide .videoWrapper {
+	margin: 0
+}
+.videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
 
 
 
@@ -809,6 +869,10 @@ input[type="text"], input[type="password"], textarea {
     		top: 50%;
     		left: -75%;
     		z-index: -1;
+	}
+	
+	.imageLeft {
+   		 max-width: 100%;
 	}
 }
 	
