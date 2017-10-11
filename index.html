@@ -15,20 +15,6 @@
 <script type="text/javascript">// <![CDATA[
 function showSubTag(tag)
 	  { 
-		  if(tag.value == 'PeopleSoft Day')
-		  {
-			  if(tag.checked)
-			  	document.getElementById('PeopleSoft Keynote').style.display='';
-			  else
-				  document.getElementById('PeopleSoft Keynote').style.display='none';
-		  }
-		  if(tag.value == 'JD Edwards Day')
-		  {
-			  if(tag.checked)
-			  	document.getElementById('JDE Keynote').style.display='';
-			  else
-				  document.getElementById('JDE Keynote').style.display='none';
-		  }
 		  if(tag.value == 'Cross Product Day')
 		  {
 			  if(tag.checked)
@@ -258,15 +244,15 @@ ya ya ya
 </div>
 <div class="form-entry_100">
 	<label for="email">Email Address*: </label>
-	<input class="input-container" id="email" name="contact_email" type="text">
+	<input class="input-container" id="email-boring" name="contact_email" type="text">
 </div>
 <div class="form-entry_100">
 	<label for="subject">Subject*: </label> 
-	<input class="input-container" id="subject" name="subject" type="text">
+	<input class="input-container" id="subject-boring" name="subject" type="text">
 </div>
 <div class="form-entry_100">
 	<label for="message">Message*: </label>
-	<textarea id="message" name="oc2_contact_message"></textarea>
+	<textarea id="message" name="message-boring"></textarea>
 </div>
 <div class="form-entry_100">
 	<input name="submit" type="submit" value="Submit" class="button cta">
