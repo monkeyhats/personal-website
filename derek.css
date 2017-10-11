@@ -836,6 +836,7 @@ input[type="text"], input[type="password"], textarea {
 	
 	#about-me-container {
 		width: 85%;
+		border: 0px;
     		margin: 1em auto;
 	}
 	
