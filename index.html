@@ -269,36 +269,30 @@ ya ya ya
 <div id="reg-form-container">
 <form id="qxw-register">
 <div class="slide-left" id="reg-form-interior">
-<div class="content_twoCols" id="reg-form-page-one" style="padding:20px !important;">
+<div class="content_twoCols" id="reg-form-page-one">
 <div class="width_100">
-<div class="input-container" data-label="First Name"><input class="input-container__input" id="reg-first-name" name="qxw_first_name" placeholder="First Name *" required="required" type="text" /></div>
+<div class="input-container" data-label="First Name"><input class="input-container__input" id="reg-first-name" name="first_name" placeholder="First Name *" required="required" type="text" /></div>
 </div>
 
 <div class="width_100">
-<div class="input-container" data-label="Last Name"><input class="input-container__input" id="reg-last-name" name="qxw_last_name" placeholder="Last Name *" required="required" type="text" /></div>
+<div class="input-container" data-label="Last Name"><input class="input-container__input" id="reg-last-name" name="last_name" placeholder="Last Name *" required="required" type="text" /></div>
 </div>
 
 <div class="width_100">
-<div class="input-container" data-label="Email"><input class="input-container__input" id="reg-email" name="qxw_email" placeholder="Email *" required="required" type="text" /></div>
+<div class="input-container" data-label="Email">
+	<input class="input-container__input" id="reg-email" name="email" onkeydown="return stopTab(event);" placeholder="Email *" required="required" type="text" />
+</div>
 </div>
 
-<div class="width_100">
-<div class="input-container" data-label="Company"><input class="input-container__input" id="reg-company" name="qxw_company" placeholder="Company *" required="required" type="text" /></div>
-</div>
-
-<div class="width_100">
-<div class="input-container" data-label="Job Title"><input class="input-container__input" id="reg-job-title" name="qxw_job_title" onkeydown="return stopTab(event);" placeholder="Job Title *" required="required" type="text" /></div>
-</div>
 
 <div class="width_100"><button class="button cta disabled" disabled="disabled" id="go-to-page-two" onclick="preventDefault();" style="margin-right: 0px !important; min-width:100% !important; max-height:3em; padding: 0 !important;" type="button">Next <i aria-hidden="true" class="fa fa-arrow-circle-right fa-fw">&nbsp;</i></button></div>
 <span style="font-size:.85em; font-weight: 400; color:#fff;"><em>* Fields are required</em></span></div>
 
-<div class="content_twoCols top" id="reg-form-page-two" style="padding:20px !important;">
-<div class="width_100">
-	<label for="primarySoftwareInterest1SXW" style="text-align:left; color:#fff;">Primary Software Interest*: </label>
+<div class="content_twoCols top" id="reg-form-page-two">
+<div class="form-entry_100"><label for="oc2_contact_subject">Subject*: </label> <input class="input-container" id="subject" name="oc2_contact_subject" type="text"></div>
 
-<div class="select-container"><select class="width_100" name="qxw_primary_software" style="margin-left: 0px;"><option disabled="disabled" selected="selected" value="Select Product">Select Product</option><option value="JD Edwards EnterpriseOne">JD Edwards EnterpriseOne</option><option value="JD Edwards World">JD Edwards World</option><option value="Oracle Data Cloud">Oracle Data Cloud</option><option value="Oracle E-Business Suite">Oracle E-Business Suite</option><option value="Oracle EPM Cloud">Oracle EPM Cloud</option><option value="Oracle ERP Cloud">Oracle ERP Cloud</option><option value="Oracle Financials Cloud">Oracle Financials Cloud</option><option value="Oracle HCM Cloud">Oracle HCM Cloud</option><option value="Oracle Procurement Cloud">Oracle Procurement Cloud</option><option value="Oracle Sales Cloud">Oracle Sales Cloud</option><option value="Oracle SCM Cloud">Oracle SCM Cloud</option><option value="Oracle Service Cloud (CX)">Oracle Service Cloud (CX)</option><option value="Oracle User Productivity Kit">Oracle User Productivity Kit</option><option value="PeopleSoft">PeopleSoft</option><option value="None of the above">None of the above</option> </select></div>
-</div>
+<div class="form-entry_100"><label for="oc2_contact_message">Message*: </label><textarea id="oc2_contact_message" name="message"></textarea></div>
+
 
 <div class="day-checkboxes" style="font-size:.85em; font-weight: 400;"><label style="text-align:left; color:#fff;">Please select the following day(s) you would like to participate in during QXW: </label>
 
