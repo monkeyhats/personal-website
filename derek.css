@@ -378,13 +378,6 @@ ul.nav-bar {
     	justify-content: center;
 }
 
-
-.flex-container#about-me-container {
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #about-me-info {
 	background-color: #00457c;
 	box-shadow: 2px 4px 10px #2c2c2c;
