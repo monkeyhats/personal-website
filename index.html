@@ -292,24 +292,12 @@ ya ya ya
 <div class="form-entry_100"><label for="oc2_contact_message">Message*: </label><textarea id="message" placeholder="Message" name="message"  required="required"></textarea></div>
 
 
-<div class="day-checkboxes" style="font-size:.85em; font-weight: 400;"><label style="text-align:left; color:#fff;">Please select the following day(s) you would like to participate in during QXW: </label>
+<div class="width_100" style="font-size:.85em; font-weight: 400;">
+<div><input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />&nbsp;<span class="optionsTxtSXW">Check me to expand!</span>
 
-<div class="width_100" style="margin-bottom: 1em;">
-<div style="width:100%;"><input id="JD Edwards Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="JD Edwards Day" />&nbsp;<span class="optionsTxtSXW">QXW: JD Edwards Day on Tuesday, November 7</span></div>
-
-<div id="JDE Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="JDE Keynote" />&nbsp;<span class="optionsTxtSXW">Register me for the QXW JD Edwards Keynote</span></div>
-
-<div style="width:100%;"><input id="PeopleSoft Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="PeopleSoft Day" />&nbsp;<span class="optionsTxtSXW">QXW: PeopleSoft Day on Wednesday, November 8</span></div>
-
-<div id="PeopleSoft Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="PeopleSoft Keynote" /> &nbsp;<span class="optionsTxtSXW">Register me for the QXW PeopleSoft Keynote</span></div>
-
-<div style="width:100%;"><input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />&nbsp;<span class="optionsTxtSXW">QXW: Cloud Day on Thursday, November 9</span>
-
-<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;<span class="optionsTxtSXW">Register me for the QXW Cloud Keynote</span></div>
+<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;<span class="optionsTxtSXW">Whoa.</span></div>
 </div>
 </div>
-
-<div class="width_100 justifyLeft"><input id="agree_terms" name="qxw_agree_terms" onchange="enableSubmit(this);" type="checkbox" value="Agree Terms" />&nbsp;<span class="optionsTxtSXW">I agree to the <a href="/conference/QXW/terms" tabindex="-1">Terms &amp; Conditions</a> for QXW</span></div>
 
 <div class="width_100 justifyCenter"><input class="button cta disabled" disabled="disabled" id="submit-for-updates" style="min-width:100% !important; cursor: pointer;" tabindex="-1" type="submit" value="SUBMIT" /> <a id="back-to-page-one" style="cursor: pointer; padding-top:1em;">Go Back</a></div>
 </div>
