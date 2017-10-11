@@ -47,11 +47,9 @@ $(document).ready(function(){
 });
 
 function validate(){
-    if ($('#reg-first-name').val().length   >   0   &&
-        $('#reg-last-name').val().length  >   0   &&
-        $('#reg-email').val().length  >   0   &&
-        $('#reg-company').val().length  >   0   &&
-        $('#reg-job-title').val().length    >   0) 
+    if ($('#first-name').val().length   >   0   &&
+        $('#last-name').val().length  >   0   &&
+        $('#email').val().length  >   0) 
 {
         $('#go-to-page-two').removeAttr('disabled');
         $('#go-to-page-two').removeClass('disabled');
