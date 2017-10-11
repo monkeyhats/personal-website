@@ -493,8 +493,9 @@ ul.nav-bar {
 	background-attachment: fixed;
 }
 
-#intro h2, #intro h3 {
+#intro h2 {
     font-weight: 400;
+    font-size: 2.5vmax;
     text-transform: none;
 }
 
