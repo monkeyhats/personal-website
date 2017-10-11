@@ -381,8 +381,10 @@ ul.nav-bar {
 #about-me-container {
     border-left: 1px dashed #fff;
     border-bottom: 1px dashed #fff;
+    width: 85%;
     padding: 1em;
-    /* padding-top: 0; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dots-overlay {
