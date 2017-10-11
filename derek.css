@@ -870,10 +870,6 @@ input[type="text"], input[type="password"], textarea {
     		left: -75%;
     		z-index: -1;
 	}
-	
-	.imageLeft {
-   		 max-width: 100%;
-	}
 }
 	
 	
