@@ -77,28 +77,30 @@ section {
   );
 }
 
-
+/**** Down arrow   ****/
+/*
 #intro:before {
   position: absolute;
-  width: 220px;
+  width: 45vw;
   left: 0;
   bottom: 0;
-  border-bottom: 20px solid white;
-  border-right: 20px solid transparent;
+  border-bottom: 5vw solid white;
+  border-right: 5vw solid transparent;
   display: block;
   content:" ";
 }
 #intro:after {
   position: absolute;
-  left: 240px;
+  left: 55vw;
   bottom: 0;
   right: 0;
-  border-bottom: 20px solid white;
-  border-left: 20px solid transparent;
+  border-bottom: 5vw solid white;
+  border-left: 5vw solid transparent;
   display: block;
   content:" ";
 }
 
+*/
 
 .contentBar:nth-child(even) {
 	  clip-path: polygon(
