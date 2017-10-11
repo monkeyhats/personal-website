@@ -78,21 +78,26 @@ section {
 }
 
 
-#intro:after {
-    border-top: 40px solid black;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
-    width: 0;
-    height: 0;
-    bottom: -40px;
-    content: "";
-    display: block;
-    position: absolute;
-    overflow: hidden;
-    left:0;right:0;
-    margin:auto;
+#intro:before {
+  position: absolute;
+  width: 220px;
+  left: 0;
+  bottom: 0;
+  border-bottom: 20px solid white;
+  border-right: 20px solid transparent;
+  display: block;
+  content:" ";
 }
-
+#intro:after {
+  position: absolute;
+  left: 240px;
+  bottom: 0;
+  right: 0;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  display: block;
+  content:" ";
+}
 
 
 .contentBar:nth-child(even) {
