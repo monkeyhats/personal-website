@@ -232,7 +232,7 @@ ya ya ya
 <section class="contentBar panel_67" id="kitten-princess">
  	<div class="container">
  	<h1>The Kitten</h1>
-<ul>
+	<ul>
 		<li>She is an extra special kitten princess</li>
 		<li>She's even more special because she's a female orange tabby</li>
 		<li>She likes being a bad kitty</li>
@@ -241,67 +241,100 @@ ya ya ya
 </section>	
 </main>
 
-<footer class="flex-container panel_100">
+<footer class="flex-container panel_100">	
 <div class="container">
 <h1>Contact Me</h1>
 
-
-
+<!-- boring form -->
 <div class="content_100 content_noPadd">
-<form id="contact-us"><input name="elqFormName" type="hidden" value="ContactUsOC2"> <input name="elqSiteID" type="hidden" value="656956231">
-<div class="form-entry_50"><label for="oc2_contact_firstName">First Name*: </label> <input class="input-container" id="oc2_contact_firstName" name="oc2_contact_firstName" type="text"></div>
-
-<div class="form-entry_50"><label for="oc2_contact_lastName">Last Name*: </label> <input class="input-container" id="oc2_contact_lastName" name="oc2_contact_lastName" type="text"></div>
-
-<div class="form-entry_100"><label for="oc2_contact_email">Email Address*: </label> <input class="input-container" id="oc2_contact_email" name="oc2_contact_email" type="text"></div>
-
-<div class="form-entry_100"><label for="oc2_contact_subject">Subject*: </label> <input class="input-container" id="oc2_contact_subject" name="oc2_contact_subject" type="text"></div>
-
-<div class="form-entry_100"><label for="oc2_contact_message">Message*: </label><textarea id="oc2_contact_message" name="oc2_contact_message"></textarea></div>
-
-<div class="form-entry_100"><input name="submit" type="submit" value="Submit" class="button cta"></div>
+<form id="contact-us">
+<div class="form-entry_50">
+	<label for="firstName">First Name*: </label> 
+	<input class="input-container" id="firstName" name="firstName" type="text">
+</div>
+<div class="form-entry_50">
+	<label for="lastName">Last Name*: </label>
+	<input class="input-container" id="lastName" name="lastName" type="text">
+</div>
+<div class="form-entry_100">
+	<label for="email">Email Address*: </label>
+	<input class="input-container" id="email" name="contact_email" type="text">
+</div>
+<div class="form-entry_100">
+	<label for="subject">Subject*: </label> 
+	<input class="input-container" id="subject" name="subject" type="text">
+</div>
+<div class="form-entry_100">
+	<label for="message">Message*: </label>
+	<textarea id="message" name="oc2_contact_message"></textarea>
+</div>
+<div class="form-entry_100">
+	<input name="submit" type="submit" value="Submit" class="button cta">
+</div>
 </form>
 </div>
+<!-- End boring form -->
+
 	
-	
+<!-- start sliding form -->	
 <div id="reg-form-container">
+	
 <form id="qxw-register">
 <div class="slide-left" id="reg-form-interior">
+	
+<!--////   Sliding form page 1   /// -->
 <div class="content_twoCols" id="reg-form-page-one">
-<div class="width_100">
-<div class="input-container" data-label="First Name"><input class="input-container__input" id="first-name" name="first_name" placeholder="First Name *" required="required" type="text" /></div>
+
+<div class="input-container" data-label="First Name">
+	<input class="input-container__input" id="first-name" name="first_name" placeholder="First Name *" required="required" type="text" />
 </div>
 
-<div class="width_100">
-<div class="input-container" data-label="Last Name"><input class="input-container__input" id="last-name" name="last_name" placeholder="Last Name *" required="required" type="text" /></div>
+<div class="input-container" data-label="Last Name">
+	<input class="input-container__input" id="last-name" name="last_name" placeholder="Last Name *" required="required" type="text" />
 </div>
 
-<div class="width_100">
 <div class="input-container" data-label="Email">
 	<input class="input-container__input" id="email" name="email" onkeydown="return stopTab(event);" placeholder="Email *" required="required" type="text" />
 </div>
+
+<button class="button cta disabled" disabled="disabled" id="go-to-page-two" onclick="preventDefault();" style="min-width:100%;" type="button">Next <i aria-hidden="true" class="fa fa-arrow-circle-right fa-fw">&nbsp;</i></button>
+<span style="font-size:.85em; font-weight: 400; color:#fff;">
+<em>* Fields are required</em>
+</span>
 </div>
+<!--////   end page 1   /// -->
 
-
-<div class="width_100"><button class="button cta disabled" disabled="disabled" id="go-to-page-two" onclick="preventDefault();" style="min-width:100%;" type="button">Next <i aria-hidden="true" class="fa fa-arrow-circle-right fa-fw">&nbsp;</i></button></div>
-<span style="font-size:.85em; font-weight: 400; color:#fff;"><em>* Fields are required</em></span></div>
-
+<!--////   Sliding form page 2   /// -->
 <div class="content_twoCols top" id="reg-form-page-two">
-<div class="form-entry_100"><label for="oc2_contact_subject">Subject: </label> <input class="input-container__input" id="subject" name="subject" placeholder="Subject" type="text"></div>
-
-<div class="form-entry_100"><label for="oc2_contact_message">Message*: </label><textarea id="message" placeholder="Message" name="message"  required="required"></textarea></div>
-
-
-<div class="width_100" style="font-size:.85em; font-weight: 400;">
-<div><input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />&nbsp;<span class="optionsTxtSXW">Check me to expand!</span>
-
-<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;"><input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;<span class="optionsTxtSXW">Whoa.</span></div>
-</div>
+<div class="input-container">
+	<label for="oc2_contact_subject">Subject: </label> 
+	<input class="input-container__input" id="subject" name="subject" placeholder="Subject" type="text">
 </div>
 
-<div class="width_100 justifyCenter"><input class="button cta disabled" disabled="disabled" id="submit-for-updates" style="min-width:100% !important; cursor: pointer;" tabindex="-1" type="submit" value="SUBMIT" /> <a id="back-to-page-one" style="cursor: pointer; padding-top:1em;">Go Back</a></div>
+<div class="input-container">
+	<label for="message">Message*: </label>
+	<textarea id="message" placeholder="Message" name="message"  required="required"></textarea>
+</div>
+
+<!--  Checkbox - page 2 -->
+<div style="font-size:.85em; font-weight: 400;">
+<input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />
+	&nbsp;<span class="optionsTxtSXW">Check me to expand!</span>
+
+<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;">
+	<input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;
+	<span class="optionsTxtSXW">Whoa.</span>
 </div>
 </div>
+<!-- end checkboxes -->
+
+<div class="width_100 justifyCenter">
+	<input class="button cta disabled" disabled="disabled" id="submit-for-updates" style="min-width:100% !important; cursor: pointer;" tabindex="-1" type="submit" value="SUBMIT" /> 
+	<a id="back-to-page-one" style="cursor: pointer; padding-top:1em;">Go Back</a>
+</div>
+</div>
+<!--////   end page 2   /// -->
+
 </div>
 </form>
 </div>	
@@ -330,11 +363,21 @@ ya ya ya
 
 <div class="content_threeFourths top content_noPadd">
 <h4>Email</h4>
-<span><a href="spamds17@gmail.com">spamds17@gmail.com</a></span></div>
-</div>
-</div>
-</div>
+<span><a href="spamds17@gmail.com">spamds17@gmail.com</a></span>
 	</div>
+</div>
+</div>
+	
+	
+	
+	
+</div>
+	
+	
+	
+	
+</div>
+<!--  Container closing  -->
 </footer>
 </body>
 </html>
