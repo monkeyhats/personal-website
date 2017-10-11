@@ -26,7 +26,22 @@ button.button.cta.disabled {
    width:50%;
    margin-left: auto;
    margin-right: auto;
+}
 
+
+#reg-form-container::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 100em;
+    background-color: #eee;
+}
+
+#reg-form-container::-webkit-scrollbar-thumb {
+    border-radius: 100em;
+    background-color: rgba(0,0,255,1);
+}
+#reg-form-container::-webkit-scrollbar-track {
+    border-radius: 100em;
+    background-color: transparent;
 }
 
 #reg-form-interior {
