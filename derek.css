@@ -377,6 +377,22 @@ ul.nav-bar {
     -webkit-justify-content: center;
     	justify-content: center;
 }
+
+
+.flex-container#about-me-container {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me-info {
+	background-color: #00457c;
+	box-shadow: 2px 4px 10px #2c2c2c;
+	border-radius: 1em;
+	padding: 1em;
+	margin-left: 3em;
+}
+
 .dots-overlay {
 	background-image: url(https://s3.amazonaws.com/ai.quest/WebsiteImages/textures/video-overlay-texture.png);
     background-size: initial !important;
@@ -581,6 +597,25 @@ img {
     display: inline-block;
 }
 
+.headshot {
+    border-radius: 100%;
+    border: 3px solid white;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.headshot img {
+    border-radius: 100%;
+}
+
+#about-me-info .headshot {
+    margin: 0em 1em 0em -7.5%;
+    width: 14%;
+    float: left;
+}
+
+
 
 
 /*  Buttons  */
@@ -739,6 +774,45 @@ input[type="text"], input[type="password"], textarea {
 	
 	
 }
+
+@media screen and (max-width: 768px)
+{
+	
+	.flex-container {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+	
+	#about-me-container {
+		width: 85%;
+    		margin: 1em auto;
+	}
+	
+	#about-me-info {
+    		margin: 1em 0 !important;
+    		padding: 2em !important;
+	}
+	
+	#about-me-info .headshot {
+    		margin-left: auto;
+   		margin-right: auto;
+    		float: none;
+    		width: 35%;
+	}
+	
+	.headshot:after {
+    		display: block;
+    		position: absolute;
+    		content: " ";
+    		width: 250%;
+    		border-top: 1px dashed #fff;
+    		top: 50%;
+    		left: -75%;
+    		z-index: -1;
+	}
+}
+	
+	
 
 @media screen and (max-height: 450px) {
   .slide-in {padding-top: 15px;}
