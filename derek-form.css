@@ -21,14 +21,25 @@ button.button.cta.disabled {
 #reg-form-container {
    overflow-x: hidden;
    position:relative;
-   min-height: 525px;
+   display:block;
+   min-height: 425px;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
 #reg-form-interior {
-    position:absolute;
-    width:200%;
+    position: absolute;
+    flex-direction: row;
+    width: 200%;
+    display: flex;
 }
+
+#reg-form-page-one {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 #reg-form-interior .day-checkboxes {
