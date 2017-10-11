@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 
-.darkBG h1,.darkBG h2,.darkBG h3,.darkBG h4,.darkBG h5 {
+.darkBG h1,.darkBG h2,.darkBG h3,.darkBG h4,.darkBG h5,.darkBG p, .darkBG {
     color: #fff
 }
 
