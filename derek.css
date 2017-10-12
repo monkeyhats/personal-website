@@ -805,7 +805,7 @@ input[type="text"], input[type="password"], textarea {
 /*  @media classes  */
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
 {
 	main {
 		text-align:center;
