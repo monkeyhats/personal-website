@@ -763,8 +763,8 @@ input, select, textarea {
 input[type="text"], input[type="password"], textarea {
 	width: 100%;
 	padding: .5em;
-	border: 1px solid #ccc;
-	font-size: 1em; 
+	border: 0px;
+	font-size: 1.25em; 
 	font-family: sans-serif;
 }
 
