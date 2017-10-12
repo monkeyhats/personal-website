@@ -803,29 +803,12 @@ input[type="text"], input[type="password"], textarea {
 
 
 /*  @media classes  */
-
-
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1024px) 
 {
-	main {
-		text-align:center;
-		}
-			
-	.contentBar {
-		background-size: cover;
-		padding: 1em;
-		clip-path: none !important
-		}
-	
-	.content_threeCols, .content_twoCols, .imageLeft, .imageRight, .content_twoThirds, .content_threeFourths, .content_oneFourth, .content_nineTenths, .content_oneTenth, .item .headshot, .item .quote {
-		width: 100%;
-		max-width: 100%;
-		min-width: 100%;
-		padding: 15px;
-		display: block;
-		float: none;
-		text-align:center;
-		}
+
+#intro, .contentBar {
+    background-attachment: scroll;
+}
 }
 
 @media screen and (max-width: 960px)
@@ -855,8 +838,27 @@ input[type="text"], input[type="password"], textarea {
 	
 }
 
+
 @media screen and (max-width: 768px)
 {
+	main {
+		text-align:center;
+		}
+			
+	.contentBar {
+		padding: 1em;
+		clip-path: none !important
+		}
+	
+	.content_threeCols, .content_twoCols, .imageLeft, .imageRight, .content_twoThirds, .content_threeFourths, .content_oneFourth, .content_nineTenths, .content_oneTenth, .item .headshot, .item .quote {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+		padding: 15px;
+		display: block;
+		float: none;
+		text-align:center;
+		}
 	
 	.flex-container {
 		-webkit-flex-direction: column;
