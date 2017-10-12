@@ -291,13 +291,13 @@ ya ya ya
 <!--////   end page 1   /// -->
 
 <!--////   Sliding form page 2   /// -->
-<div class="content_twoCols top" id="reg-form-page-two">
+<div class="content_twoCols" id="reg-form-page-two">
 <div class="input-container">
 	<input class="input-container__input" id="subject" name="subject" placeholder="Subject" type="text">
 </div>
 
-<div class="input-container">
-	<textarea id="message" placeholder="Message" name="message"  required="required"></textarea>
+<div class="textarea-container">
+	<textarea id="message" placeholder="Message" name="message"  required="required" style="min-height:5em;"></textarea>
 </div>
 
 <!--  Checkbox - page 2 -->
@@ -305,7 +305,7 @@ ya ya ya
 <input id="Cross Product Day" name="qxw_day_checkboxes" onchange="showSubTag(this);" type="checkbox" value="Cross Product Day" />
 	&nbsp;<span class="optionsTxtSXW">Check me to expand!</span>
 
-<div id="Cross Product Keynote" style="margin: 10px 20px 10px 20px; display: none;">
+<div id="checkbox-expansion" style="margin: 10px 20px 10px 20px; display: none;">
 	<input name="qxw_keynote_checkboxes" type="checkbox" value="Cross-Product Keynote" />&nbsp;
 	<span class="optionsTxtSXW">Whoa.</span>
 </div>
