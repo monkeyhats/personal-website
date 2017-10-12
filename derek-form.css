@@ -94,14 +94,24 @@ border-radius: 3px;
 
 #reg-form-container {
    overflow-x: initial;
+   width:90%;
 }
 
 #reg-form-interior {
     position:relative;
+    flex-direction: column;
     width:100%;
     cursor: pointer;
 }
 
+#reg-form-page-one {
+	padding-bottom: 0;
+}
+
+#reg-form-page-one span {
+	display:none;
+}
+	
 #go-to-page-two {
     display:none;
 }
