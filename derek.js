@@ -24,6 +24,10 @@ $(document).ready(function(){
 		$("div#reg-form-interior").removeClass("slide-right");
 		$("div#reg-form-interior").addClass("slide-left");
 	});
+	
+	$(".js-expand-title").click(function() {
+		$(this).parent().toggleClass("active").find(".js-expand-container").slideToggle();
+	});
 });
 
 
