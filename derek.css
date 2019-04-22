@@ -765,6 +765,55 @@ img {
     color: #FFF
 }
 
+/*  Experience list */
+
+.experience-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-list h4 {
+    font-size: 1.5rem;
+}
+
+.experience-list h5 {
+    font-size: 1.125rem;
+}
+
+ul.experience-list {
+    margin-left: 2.125rem;
+}
+
+.experience-list li:before {
+    content: " ";
+    background-color: blue;
+    height: 1.25rem;
+    width: 1.25rem;
+    display: inline-block;
+    position: absolute;
+    left: -2rem;
+    margin-top: 0.25rem;
+    transform: rotate(45deg);
+}
+
+.experience-list li:after {
+    content: " ";
+    background-color: gray;
+    height: calc(100% - 1.25rem);
+    width: 3px;
+    display: inline-block;
+    position: absolute;
+    left: calc(-1.5rem + 1px);
+    top: calc(1.25rem + 20px);
+}
+
+.experience-list li {
+    display: block;
+    position: relative;
+	margin-bottom: 2rem;
+}
+
+
 /*  Form styling  */
 input, select, textarea {
 	display: inline-block; 
