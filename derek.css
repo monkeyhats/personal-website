@@ -695,6 +695,16 @@ img {
 }
 
 
+/*  Social icons  */
+
+.social-row {
+	display:flex;
+	font-size: 2.375rem;
+}
+
+.social-row > div {
+	margin-right: 20px;
+}
 
 
 /*  Buttons  */
