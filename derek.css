@@ -346,6 +346,8 @@ ul.nav-bar {
 }
 .panel_75{
 	min-height: 75vh;
+	padding-top: calc(3vmax + 20px + .83em);
+    padding-bottom: calc(3vmax + 20px);
 }
 
 .panel_67 {
