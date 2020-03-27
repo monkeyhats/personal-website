@@ -1089,6 +1089,28 @@ li.active .js-expand-title:after {
 		flex-direction: column;
 	}
 	
+	  .flex-grid {
+    display: block;
+  }
+
+  .flex-grid .col {
+    margin: .625rem 0;
+    width: 100% !important;
+display:block;
+  }
+
+.col.two-thirds ul {
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+
+.content {
+-webkit-box-shadow: 0 0.0625rem 0.1875rem 0 rgba(55,71,79,0);
+    box-shadow: 0 0.0625rem 0.1875rem 0 rgba(55,71,79,0);
+min-height: 0;
+}
+	
 	#about-me-container {
 		width: 100%;
 		border: 0px;
