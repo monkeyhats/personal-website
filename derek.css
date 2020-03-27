@@ -572,6 +572,91 @@ li.twoCols  {
 }
 
 
+
+/*  Flex Grids  */
+.flex-grid {
+      display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-grid .col {
+    -webkit-box-flex: 0;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    margin: .625rem;
+}
+
+.flex-grid._100 .col {
+    -ms-flex: 0 0 calc(100% - 1.25rem);
+    flex: 0 0 calc(100% - 1.25rem);
+    width: calc(100% - 1.25rem);
+}
+.flex-grid.halves .col {
+    -ms-flex: 0 0 calc(50% - 1.25rem);
+    flex: 0 0 calc(50% - 1.25rem);
+    width: calc(50% - 1.25rem)  /* IE 11 fix  */
+}
+.flex-grid.thirds .col {
+    -ms-flex: 0 0 calc(33.33% - 1.25rem);
+    flex: 0 0 calc(33.33% - 1.25rem);
+    width: calc(33.33% - 1.25rem)  /* IE 11 fix  */
+}
+
+.flex-grid.fourths .col {
+    -ms-flex: 0 0 calc(25% - 1.25rem);
+    flex: 0 0 calc(25% - 1.25rem);
+    width: calc(25% - 1.25rem)  /* IE 11 fix  */
+}
+
+.flex-grid.fifths .col {
+    -ms-flex: 0 0 calc(20% - 1.25rem);
+    flex: 0 0 calc(20% - 1.25rem);
+    width: calc(20% - 1.25rem)  /* IE 11 fix  */
+}
+
+ul.smallText li, p.smallText {font-size: .875rem;}
+
+.flex-grid.thirds .col.two-thirds {
+    -ms-flex: 0 0 calc(66.66% - 1.25rem);
+    flex: 0 0 calc(66.66% - 1.25rem);
+    width: calc(66.66% - 1.25rem)  /* IE 11 fix  */
+}
+
+.col.two-thirds ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.content {
+	padding: 1.375rem;
+	-webkit-box-shadow: 0px 0px 0px 1px #c3c7ca;
+	box-shadow: 0px 0px 0px 1px #c3c7ca;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+justify-content: flex-start;
+}
+
+
+
+/* justify helpers  */
+
 .justifyCenter {
     text-align: center !important
 }
