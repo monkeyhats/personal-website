@@ -1372,13 +1372,14 @@ a.pill-button {
 .flex-grid.thirds .col.two-thirds{-ms-flex:0 0 66.66%;flex:0 0 66.66%;width:66.66%}
 .flex-grid.halves .col{-ms-flex:0 0 50%; flex:0 0 50%;width:50%}
 
-.col.event-date {
-    text-align: right;
+.col.event-title, .col.event-date {
     justify-content: center;
     align-items: center;
     align-self: center;
     color: #fff;
 }
+
+.col.event-date {text-align:right;}
 
 .event-date span {display:block}
 .event-date span.date {font-size:1.375rem}
