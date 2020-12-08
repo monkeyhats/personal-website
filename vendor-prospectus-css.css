@@ -521,7 +521,35 @@ html {
 	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
 }
 
-.generic .page-title h1, .reconnect .page-title h1, .infocus .page-title h1 {
+.cloud-conference .page-title{
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+}
+
+.database-conference .page-title {
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+}
+
+.commercepros .page-title {
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+}
+
+.peoplesoft .page-title{
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+}
+
+.cloud .page-title {
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+}
+
+.database-and-tech .page-title{
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+}
+
+.jd-edwards .page-title {
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+}
+
+.generic .page-title, .reconnect .page-title, .infocus .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title {
 	color: #f3f4f5;
 }
 
@@ -576,13 +604,6 @@ h1.title span {
 	color: #1dd189;
 	font-weight: 900;
 }
-
-.container.all-products {}
-.container.peoplesoft{}
-.container.jd-edwards{}
-.container.cloud{}
-.container.db-tech{}
-
 
 img {
   max-width: 100%; }
