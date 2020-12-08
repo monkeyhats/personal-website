@@ -526,7 +526,7 @@ html {
 }
 
 .database-conference .page-title {
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/09/14131459/Color-filter-temp.jpg);
 }
 
 .commercepros .page-title {
@@ -534,22 +534,26 @@ html {
 }
 
 .peoplesoft .page-title{
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/01/16152032/Digital-Events-Background-PeopleSoft-jpg.jpg);
 }
 
 .cloud .page-title {
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/01/16152005/Digital-Events-Background-Cloud-jpg.jpg);
 }
 
 .database-and-tech .page-title{
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/01/16152015/Digital-Events-Background-DBTech-jpg.jpg);
 }
 
 .jd-edwards .page-title {
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/30145008/INFOCUS-Hero.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/01/16152023/Digital-Events-Background-JDE-jpg.jpg);
 }
 
-.generic .page-title, .reconnect .page-title, .infocus .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title {
+.oracle .page-title {
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/08/30123129/oow-hero.png);
+}
+
+.generic .page-title, .reconnect .page-title, .infocus .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title, .oracle .page-title {
 	color: #f3f4f5;
 }
 
