@@ -522,7 +522,7 @@ html {
 }
 
 .cloud-conference .page-title{
-	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/05/07104938/RECONNECT-19-hero-1350x480.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09104048/Cloud-Virtual-Conference-Hero-1920x1080-png.png);
 }
 
 .database-conference .page-title {
@@ -553,7 +553,7 @@ html {
 	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/08/30123129/oow-hero.png);
 }
 
-.generic .page-title, .reconnect .page-title, .infocus .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title, .oracle .page-title {
+.generic .page-title, .reconnect .page-title, .infocus .page-title, .cloud-conference .page-title, .database-conference .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title, .oracle .page-title {
 	color: #f3f4f5;
 }
 
