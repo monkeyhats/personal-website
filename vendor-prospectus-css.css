@@ -1359,10 +1359,7 @@ a.pill-button {
       border: 1px solid #969ea2;
       height: 80px;
       border-radius: 4px;
-      background: #fff; }/* CSS Document */
-
-
-
+      background: #fff; }
 
 /*   FLEX GRIDS  */
 .flex-grid{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -1433,9 +1430,6 @@ a.pill-button {
 	  .col.event-date, .col.event-title { text-align: center;}
 	ul.two-cols{columns:1;-webkit-columns:1;-moz-columns:1}
 }
-}
-
-
 
 
 /*  BY THE NUMBERS  */
