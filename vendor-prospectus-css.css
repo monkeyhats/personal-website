@@ -1480,13 +1480,7 @@ a.pill-button {
 	
 }
 
-.engaged-users--image,
-.community-members--image, 
-.countries-represented--image, 
-.unique-customer-companies--image, 
-.attendees-per-session--image, 
-.customer-attendees--image, 
-.leads-per-exhibitor--image {
+.by-the-numbers--image {
 	display:block;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1495,32 +1489,6 @@ a.pill-button {
     width: 50%;
     margin: auto;
 }
-
-.dark .engaged-users--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09123706/Engaged-Users-SVG-white.svg);
-}
-
-.dark .community-members--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131329/Community-Members-SVG-white.svg);
-}
-
-.dark .countries-represented--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131330/Countries-represented-SVG-white.svg);
-}
-	
-.peoplesoft--numbers .engaged-users--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09123706/Engaged-Users-SVG-white.svg);
-}
-
-.peoplesoft--numbers .community-members--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131329/Community-Members-SVG-white.svg);
-}
-
-.peoplesoft--numbers .countries-represented--image {
-    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131330/Countries-represented-SVG-white.svg);
-}
-	
-	
 
 .by-the-numbers--number {
     margin-bottom: 0px;
