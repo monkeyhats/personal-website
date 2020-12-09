@@ -566,6 +566,12 @@ html {
     font-weight: 900;
 }
 
+p.intro {
+    color: #fff;
+    padding-top: 1.375rem;
+    margin-bottom: 0;
+}
+
 .container {
   max-height: 100vh;
   overflow: auto;
