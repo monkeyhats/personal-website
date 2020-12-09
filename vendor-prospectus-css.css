@@ -1363,6 +1363,22 @@ a.pill-button {
 
 /*  BY THE NUMBERS  */
 
+div.by-the-numbers-grid {
+    background: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/04/21105515/hero_bg_dark.png);
+    background-size: cover;
+    text-align: center;
+}
+
+div.by-the-numbers-grid .col:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 80%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+	padding-bottom: 20px;
+    border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
+}
+
 p.by-the-numbers--number {
     margin-bottom: 0px;
     font-size: 2.875rem;
