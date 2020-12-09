@@ -1435,19 +1435,21 @@ a.pill-button {
 /*  BY THE NUMBERS  */
 
 .by-the-numbers-grid {
-   /* background: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/04/21105515/hero_bg_dark.png);
-    background-size: cover;  */
     text-align: center;
 -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
 }
-	
+
 .by-the-numbers-grid .col {
-    position:relative;
+    position: relative;
+}
+	
+.by-the-numbers-grid:not(.dark) .col {
+    border: 1px solid #c3c7ca;
 }
 
-.by-the-numbers-grid .col::after {
+.by-the-numbers-grid.dark .col::after {
     content: "";
     display: block;
     position: absolute;
@@ -1478,48 +1480,58 @@ a.pill-button {
 	
 }
 
-.engaged-users--image {
-    display:block;
+.engaged-users--image,
+.community-members--image, 
+.countries-represented--image, 
+.unique-customer-companies--image, 
+.attendees-per-session--image, 
+.customer-attendees--image, 
+.leads-per-exhibitor--image {
+	display:block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 105px;
+    width: 50%;
+    margin: auto;
+	
+
+.dark .engaged-users--image {
     background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09123706/Engaged-Users-SVG-white.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    min-height: 105px;
-    width: 50%;
-    margin: auto;
 }
 
-.community-members--image {
-    display:block;
+.dark .community-members--image {
     background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131329/Community-Members-SVG-white.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    min-height: 105px;
-    width: 50%;
-    margin: auto;
 }
 
-.countries-represented--image {
-    display:block;
+.dark .countries-represented--image {
     background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131330/Countries-represented-SVG-white.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    min-height: 105px;
-    width: 50%;
-    margin: auto;
+}
+	
+.peoplesoft--numbers .engaged-users--image {
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09123706/Engaged-Users-SVG-white.svg);
 }
 
-p.by-the-numbers--number {
+.peoplesoft--numbers .community-members--image {
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131329/Community-Members-SVG-white.svg);
+}
+
+.peoplesoft--numbers .countries-represented--image {
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131330/Countries-represented-SVG-white.svg);
+}
+	
+	
+
+.by-the-numbers--number {
     margin-bottom: 0px;
     font-size: 2.875rem;
     font-weight: 900;
 }
 
-p.by-the-numbers--label {
+.by-the-numbers--label {font-size: .875rem;}
+
+.dark .by-the-numbers--label {
 	color: #fff;
-    font-size: .875rem;
 }
 
   @media (max-width: 769px) {
