@@ -1418,6 +1418,28 @@ a.pill-button {
     margin: auto;
 }
 
+.community-members--image {
+    display:block;
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131329/Community-Members-SVG-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 105px;
+    width: 50%;
+    margin: auto;
+}
+
+.countries-represented--image {
+    display:block;
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09131330/Countries-represented-SVG-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 105px;
+    width: 50%;
+    margin: auto;
+}
+
 p.by-the-numbers--number {
     margin-bottom: 0px;
     font-size: 2.875rem;
