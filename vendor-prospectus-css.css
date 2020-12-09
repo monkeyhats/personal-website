@@ -1009,7 +1009,7 @@ a.pill-button {
       color: #fff; }
 
 .example-block__image {
-	height: 250px;
+	/*  height: 250px;  */ 
 	border: 1px solid #c3c7ca;
     border-radius: 4px;
 	margin-right:10px;
