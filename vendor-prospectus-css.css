@@ -1388,13 +1388,14 @@ a.pill-button {
 }
 
 .engaged-users--image {
+    display:block;
     background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/12/09123706/Engaged-Users-SVG-white.svg);
-    height: 50%;
-    width: 50%;
-    margin: auto;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    min-height: 105px;
+    width: 50%;
+    margin: auto;
 }
 
 p.by-the-numbers--number {
@@ -1410,7 +1411,7 @@ p.by-the-numbers--label {
 
   @media (max-width: 769px) {
 	.by-the-numbers-grid .col::after {
-		display:none;
+		display:none !important;
 }
 }
 
