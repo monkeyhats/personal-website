@@ -502,12 +502,56 @@ html {
   min-width: 100vw;
   min-height: 100vh; }
 
-.page-title {
+.page-title, .quote-callout {
     background-size: cover;
     background-position: 50% 50%;
     padding: 60px;
     margin: -60px -60px 60px;
 }
+
+        .quote-callout {
+            position: relative;
+            background-color: #f3f4f5;
+            text-align: center;
+}
+
+        .quote-callout:before,.quote-callout:after {
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            font-size: 2.875rem;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            width: auto;
+            opacity: .15
+        }
+
+        .quote-callout:before {
+            content: "\f10d";
+            top: 1.375rem;
+            left: 1.375rem
+        }
+
+        .quote-callout:after {
+            content: "\f10e";
+            bottom: 1.375rem;
+            right: 1.375rem
+        }
+
+        span.quote-text {
+            font-style: italic;
+            font-size: 1.875rem;
+        }
+
+        span.quote-citation {
+            color: #1dd189;
+            font-size: .875rem;
+            display: block;
+                    margin-top: 1.375rem;
+
+        }
 
 .generic .page-title {
 	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/04/21105515/hero_bg_dark.png);
@@ -628,7 +672,7 @@ img {
     padding: 20px;
     max-height: none; }
 	
-  .page-title {
+  .page-title, .quote-callout {
     padding: 30px;
     margin: -30px -30px 30px;
 }
