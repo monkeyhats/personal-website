@@ -1456,6 +1456,38 @@ a.pill-button {
 .halves.with-spacing .col{-ms-flex:0 0 calc(50% - 1.25rem);flex:0 0 calc(50% - 1.25rem);width:calc(50% - 1.25rem)}
 ._100.with-spacing .col{-ms-flex:0 0 100%;flex:0 0 calc(100% - .75rem);width:calc(100% - .75rem)}
 
+
+.image-col {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.video-col .qds-c-video-wrapper {
+    height: 100%;
+}
+
+.qds-c-video-wrapper {
+  position: relative; 
+}
+.qds-c-video-wrapper::before {
+    content: "";
+    float: left;
+    padding-bottom: 56.25%; 
+}
+.qds-c-video-wrapper::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+.qds-c-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+
 /*  .with-spacing .col{margin:.5rem}  */
 .with-background .flex-content.jde{background-color:#85859c;color:#f3f4f5}
 .with-background .flex-content.psft{background-color:#2f83d6;color:#f3f4f5}
