@@ -1452,7 +1452,7 @@ a.pill-button {
 .col.event-date {text-align:right;}
 
 .event-date span {display:block}
-.event-date span.date {font-size:1.375rem}
+.event-date span.date {font-size:1.875rem}
 .event-date span.byline {}
 
 .fifths.with-spacing .col{-ms-flex:0 0 calc(20% - 1.25rem);flex:0 0 calc(20% - 1.25rem);width:calc(20% - 1.25rem)}
