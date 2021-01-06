@@ -601,7 +601,7 @@ html {
 }
 
 .commerce .page-title {
-	background-image url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2021/01/06164142/commerce-red-bg-computer-generic-2-png.png);
+	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2021/01/06164142/commerce-red-bg-computer-generic-2-png.png);
 }
 
 .oracle .page-title {
