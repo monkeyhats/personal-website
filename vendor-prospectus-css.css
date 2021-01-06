@@ -600,11 +600,15 @@ html {
 	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2020/01/16152023/Digital-Events-Background-JDE-jpg.jpg);
 }
 
+.commerce .page-title {
+	background-image url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2021/01/06164142/commerce-red-bg-computer-generic-2-png.png);
+}
+
 .oracle .page-title {
 	background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2018/08/30123129/oow-hero.png);
 }
 
-.generic .page-title, .reconnect .page-title, .infocus .page-title, .cloud-conference .page-title, .database-conference .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title, .oracle .page-title {
+.generic .page-title, .reconnect .page-title, .infocus .page-title, .cloud-conference .page-title, .database-conference .page-title, .peoplesoft .page-title, .jd-edwards .page-title, .cloud .page-title, .database-and-tech .page-title, .oracle .page-title, .commerce .page-title {
 	color: #f3f4f5;
 }
 
