@@ -1627,7 +1627,32 @@ a.pill-button {
     height: 6.75rem;
     display: inline-block;
 }
-
+.qds-c-avatar[class*="qds-h-border"] {
+    border: 2px solid transparent; }
+.qds-c-avatar[class*="qds-h-border"]::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid white;
+      border-radius: 50%; }
+.qds-c-avatar--size-xs {
+    width: 1.25rem;
+    height: 1.25rem; }
+.qds-c-avatar--size-sm {
+    width: 2.5rem;
+    height: 2.5rem; }
+.qds-c-avatar--size-lg {
+    width: 4.6875rem;
+    height: 4.6875rem; }
+.qds-c-avatar--size-xl {
+    width: 5.625rem;
+    height: 5.625rem; }
+.qds-c-avatar--size-xxl {
+    width: 7.8125rem;
+    height: 7.8125rem; }
 .qds-c-avatar a {
     color: #169e68;
     text-decoration: none;
@@ -1642,3 +1667,16 @@ a.pill-button {
     background-color: #fff;
     border: 2px solid #1dd189;
 }
+
+.qds-h-border--peoplesoft {
+  border-color: #2f83d6 !important; }
+.qds-h-border--jd-edwards {
+  border-color: #85859c !important; }
+.qds-h-border--oracle-cloud, .qds-h-border--customer-experience, .qds-h-border--erp-cloud, .qds-h-border--epm-cloud, .qds-h-border--hcm-cloud, .qds-h-border--scm-cloud {
+  border-color: #e69153 !important; }
+.qds-h-border--regional, .qds-h-border--other, .qds-h-border--cross-product {
+  border-color: #1dd189 !important; }
+.qds-h-border--none {
+  border-color: #fff !important; }
+.qds-h-border--db-tech {
+  border-color: #00B2D2 !important; }
