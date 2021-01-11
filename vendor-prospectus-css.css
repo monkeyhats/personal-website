@@ -1199,6 +1199,7 @@ a.pill-button {
   display: flex;
   flex-direction: column;
   line-height: normal; }
+
   .example-color__item {
     color: #fff;
     padding: 10px;
@@ -1206,18 +1207,23 @@ a.pill-button {
     flex-direction: column;
     justify-content: flex-end;
     margin: 0; }
+
     .example-color__item--large {
       height: 150px; }
+
     .example-color__item--dark {
       color: #37474f; }
+
   .example-color__name {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 0; }
+
   .example-color__hex {
     font-size: 13px; }
+
   .example-color__illustration {
     height: 60px;
     margin: 20px 0 10px; }
@@ -1225,37 +1231,55 @@ a.pill-button {
 .example-combinations {
   border-collapse: collapse;
   width: 100%;
-  table-layout: fixed; }
-  .example-combinations th {
+  table-layout: fixed; 
+	-webkit-box-shadow: 0 0.0625rem 0.1875rem 0 rgba(55, 71, 79, 0.09);
+      box-shadow: 0 0.0625rem 0.1875rem 0 rgba(55, 71, 79, 0.09); }
+
+.example-combinations thead {background-color:#f3f4f5;}
+
+.example-combinations tbody {border:1px solid #f3f4f5;}
+    
+.example-combinations  th:nth-child(1){
+    border-radius: 3px 0px 0px 3px;}
+
+.example-combinations  th:nth-last-child(1){
+    border-radius: 0px 3px 3px 0px;}
+
+.example-combinations tr {border-bottom: 1px solid #f3f4f5;}
+
+.example-combinations th, .example-combinations td {text-align:left; vertical-align:middle; padding: 1.375rem}
+
+.example-combinations th {
     border-bottom: 1px solid #dadfe2;
     font-weight: normal; }
-  .example-combinations td, .example-combinations th {
-    text-align: left;
-    vertical-align: top; }
 
 .example-combinations td:not(:first-of-type), .example-combinations th:not(:first-of-type) {
-    text-align: center;
-    vertical-align: top;
-}
+    text-align: center;}
 
-    .example-combinations td p, .example-combinations th p {
+.example-combinations tr td:first-of-type {padding-right:1.375rem}
+
+th .example-combinations__title {font-size: .9375rem;}
+
+.example-combinations td p, .example-combinations th p {
       margin-bottom: 0; }
-  .example-combinations th {
-    padding: 0 0 20px 0; }
-  .example-combinations td {
-    padding: 0; }
+
+.example-combinations__number {font-size: 1.375rem; color: #1dd189; font-weight: 600;}
+
   .example-combinations__title {
     font-weight: 600;
     margin-top: 5px;
     font-size: 13px;
     line-height: normal; }
+
   .example-combinations__description {
     display: none;
     font-size: 15px; }
+
   .example-combinations__hex {
     color: #5f6c72;
     font-size: 13px;
     line-height: normal; }
+
   .example-combinations__color {
     margin-top: 20px;
     background: #f1f4f5;
