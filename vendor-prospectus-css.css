@@ -1627,7 +1627,14 @@ border-bottom: 0;}
     color: #1dd189;
 	fill: #1dd189;}
 
-
+.qds-c-logo {
+    display: inline-block;
+    background-image: url(https://s3.amazonaws.com/questoracle-staging/wordpress/uploads/2021/01/11143149/q-footer-icon.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+}
 
 
 /*   FLEX GRIDS  */
