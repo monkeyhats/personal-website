@@ -1232,6 +1232,12 @@ a.pill-button {
   .example-combinations td, .example-combinations th {
     text-align: left;
     vertical-align: top; }
+
+.example-combinations td:not(:first-of-type), .example-combinations th:not(:first-of-type) {
+    text-align: center;
+    vertical-align: top;
+}
+
     .example-combinations td p, .example-combinations th p {
       margin-bottom: 0; }
   .example-combinations th {
