@@ -1268,7 +1268,7 @@ th .example-combinations__title {font-size: .9375rem;}
   .example-combinations__title {
     font-weight: 600;
     margin-top: 5px;
-    font-size: 13px;
+/*    font-size: 13px;  */
     line-height: normal; }
 
   .example-combinations__description {
