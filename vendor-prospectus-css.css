@@ -1389,9 +1389,10 @@ th .example-combinations__title {font-size: .9375rem;}
       display: block;
       padding: 20px 0;
       border-bottom: 1px solid #c3c7ca;
-      vertical-align: middle; }
+      vertical-align: middle;
+	  text-align:center; !important;}
       .example-combinations td:first-of-type {
-        padding: 20px 20px 20px 0; } }
+        padding: 20px } }
 
 .quest-green {
   background: #1dd189; }
